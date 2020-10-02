@@ -1,0 +1,22 @@
+// Colors
+
+$off-white: rgb(235, 235, 235);
+$dark-blue: rgb(15, 20, 49);
+$light-blue: rgb(165, 223, 220);
+$gray-blue: rgb(62, 73, 94);
+$green: rgb(83, 228, 78);
+// Spacing
+
+$s-size: 1.2rem;
+$m-size: 1.8rem;
+$l-size: 2.4rem;
+$xl-size: 3.2rem;
+$desktop-breakpoint: 40rem;
+
+//functions
+
+@mixin displayFlexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
